@@ -57,5 +57,6 @@ class LL{
         LL list=new LL();
         list.addFirst('a');
         list.addFirst('is')
+        list.printList();
     }
 }
