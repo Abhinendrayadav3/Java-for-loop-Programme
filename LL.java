@@ -1,4 +1,5 @@
 class LL{
+    Node head;
     class Node{
         String data;
         Node next;
@@ -28,9 +29,29 @@ class LL{
     }
     //add element at the last pos
     public void addLast(String data){
-
+        if (head==null){
+            head=newNode;
+            return;
+        }
+    Node currNode=head;
+    while(currNode.next!=null){
+        currNode=currNode.next;
     }
-
+    currNode.next=newNode;
+    }
+//print
+   public void printList(){
+    if (currNode==null){
+        system.out.print('list empty')
+        return;
+    }
+    Node currNode=head;
+    while(currNode!=null){
+        system.out.print(currNode.data)
+        currNode=currNode.next;
+    }
+    system.out.println('NULL')
+    }
 
     public static void main(String[] args) {
         LL list=new LL();
