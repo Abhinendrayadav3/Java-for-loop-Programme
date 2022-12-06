@@ -1,12 +1,14 @@
+import java.util.*;
+
 public class ll2O{
     public static void main(String[] args) {
-        linkedList ll=new linkedList();
-        ll.add(0);
-        ll.add(9);
-        ll.add(1,'for');
+        LinkedList <String> ll=new LinkedList<>();
+        ll.add("hello");
+        ll.add("you");
+        ll.add(1,"2");
 
         for(int i=0;i<ll.size();i++){
-            system.out.print(ll.get(i),+' ');
+            System.out.println(ll.get(i) + " ");
         }
     }
 }
