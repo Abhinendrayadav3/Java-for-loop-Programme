@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class largestamg3 {
+public class multipleinputs {
     public static void main (String args[]){
         int m;
         Scanner sc =new Scanner(System.in);
