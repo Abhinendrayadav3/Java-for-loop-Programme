@@ -3,31 +3,32 @@ public class encap1 {
         private int height;
         private int weight;
         private String gender;
-        public int getNameH(){
+        int x;
+        public int getHeight(){
             return height;
         }
-        public int getNameW(){
+        public int getWeight(){
             return weight;
         }
-        public String getNameG(){
+        public String getGender(){
             return gender;
         }
-        public void setNameH(int Nheight){
+        public void setHeight(int Nheight){
             this.height=Nheight;
         }
-        public void setNameW(int newWeight){
+        public void setWeight(int newWeight){
             this.weight=newWeight;
         }
-        public void setNameG(String newGender){
+        public void setGender(String newGender){
             this.gender=newGender;
         }
     }
     public static void main(String [] args){
         human mySpecify=new human();
-        mySpecify.setNameH(94);
-        mySpecify.setNameG("Male");
-        mySpecify.setNameW(73);
-        System.out.println("the gender of human is:"+mySpecify.getNameG());
+        mySpecify.setHeight(94);
+        mySpecify.setGender("Male");
+        mySpecify.setWeight(73);
+        System.out.println("the gender of human is:"+mySpecify.getGender());
 
 
     }
