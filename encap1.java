@@ -5,7 +5,7 @@ class human{
     int x;
     public int getHeight(){
         return height;
-    }
+    } 
     public int getWeight(){
         return weight;
     }

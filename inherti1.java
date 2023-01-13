@@ -6,7 +6,7 @@ class games{
     public void setMultiplay(String multiPlay){
         this.multiPlay=multiPlay;
     }
-}
+}   
 
 class pubg extends games{
 
