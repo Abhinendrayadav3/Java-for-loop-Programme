@@ -6,7 +6,7 @@ public class averageJava {
         for(int i=0;i<arr.length;i++){
             sunm=sunm+arr[i];
             
-
+ 
         }
         System.out.println(sunm/leno);
     }
